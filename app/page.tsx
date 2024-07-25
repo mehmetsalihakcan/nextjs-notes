@@ -3,6 +3,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import LoginButton from "@/components/LoginButton";
 import { useRouter,usePathname } from "next/navigation";
+import { Button } from "@/components/ui/button";
 
 const Home = () => {
   const pathname = usePathname(); //Mevcut sayfanın yolunu almak için usePathname hook u kullanıyoruz
@@ -39,6 +40,7 @@ const Home = () => {
       <LoginButton type="button" fullWidth onClick={()=> router.push('/auth/login')}>
         selam login button
       </LoginButton>
+      <Button variant="mybutton" size={"lg"}>Button</Button>
     </>
   );
 };
