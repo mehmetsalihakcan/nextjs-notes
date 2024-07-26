@@ -1,0 +1,10 @@
+https://react-icons.github.io/react-icons/    // icon lar için
+https://tailwindcss.com/     // hazır css classları için
+https://nextjs.org/    //nextjs öğremek için
+https://swiperjs.com/  // animasyonlu gösterme
+https://michalsnik.github.io/aos/ // animasyonlu yükleme
+https://animejs.com/   //animasyon yapmak
+https://zustand-demo.pmnd.rs/    // global state yönetimi
+https://www.npmjs.com/package/clsx   // ?
+https://resend.com/  // mail atmak için
+https://cloudinary.com/?utm_campaign=1329&utm_content=instapagelogocta-selfservetest     // resimleri bulut sunucuda tutmak için

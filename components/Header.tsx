@@ -3,6 +3,8 @@ import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 
 import React from "react";
+import { AiFillHeart } from "react-icons/ai";
+
 
 const Header = () => {
   const pathname = usePathname();
@@ -10,6 +12,7 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center shadow-lg mb-1">
       <div className="flex ml-5">Logo</div>
+      <AiFillHeart fill="red" size={50} />
       <div className="flex items-center gap-9 m-5">
         <p>
           <Link
